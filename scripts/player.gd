@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var speed := 220.0
-@onready var sprite: Sprite2D = $Sprite2D
+@onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 
 # 16 tekstur idle (po 1 klatce na kierunek)
 @export var tex_E: Texture2D
@@ -24,66 +24,50 @@ extends CharacterBody2D
 var last_dir_index := 0
 
 func _physics_process(delta: float) -> void:
-	# 1. RUCH — WASD
-	var move_dir := Input.get_vector(
-		"move_left",
-		"move_right",
-		"move_up",
-		"move_down"
-	)
+	var move_dir := Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	velocity = move_dir * speed
 	move_and_slide()
 
-	# 2. OBRÓT POSTACI — MYSZKA
+	# kierunek patrzenia: myszka (Hades style)
 	var aim_dir := _get_mouse_dir()
-	_update_sprite_16dir(aim_dir)
+	_update_anim_16dir(aim_dir, move_dir.length() > 0.01)
 
-
-func _update_sprite_16dir(dir: Vector2) -> void:
-	if dir == Vector2.ZERO:
-		_set_texture_by_index(last_dir_index)
-		return
-
-	var angle := atan2(-dir.y, dir.x) # 0=E, +CCW, uwaga: -dir.y bo w 2D Y rośnie w dół
-	var idx := wrapi(int(round((angle / TAU) * 16.0)), 0, 16)
-	last_dir_index = idx
-	_set_texture_by_index(idx)
-	
-
-
-func _set_texture_by_index(i: int) -> void:
-	var t: Texture2D = null
-	match i:
-		0:  t = tex_E
-		1:  t = tex_NEE
-		2:  t = tex_NE
-		3:  t = tex_NNE
-		4:  t = tex_N
-		5:  t = tex_NNW
-		6:  t = tex_NW
-		7:  t = tex_NWW
-		8:  t = tex_W
-		9:  t = tex_SWW
-		10: t = tex_SW
-		11: t = tex_SSW
-		12: t = tex_S
-		13: t = tex_SSE
-		14: t = tex_SE
-		15: t = tex_SEE
-
-	print("idx=", i, " null=", t == null)
-	if t != null:
-		sprite.texture = t
-
-		
-
-		
 func _get_mouse_dir() -> Vector2:
 	var mouse_pos := get_global_mouse_position()
 	var d := mouse_pos - global_position
 	if d.length() < 1.0:
 		return Vector2.ZERO
-		
-	
 	return d.normalized()
-	
+
+func _update_anim_16dir(dir: Vector2, is_moving: bool) -> void:
+	if dir == Vector2.ZERO:
+		dir = Vector2.RIGHT # fallback
+
+	var angle := atan2(-dir.y, dir.x)
+	var idx := wrapi(int(round((angle / TAU) * 16.0)), 0, 16)
+	last_dir_index = idx
+
+	var anim := _anim_name_from_index(idx, is_moving)
+	if sprite.animation != anim:
+		sprite.play(anim)
+
+func _anim_name_from_index(i: int, is_moving: bool) -> String:
+	var prefix := "walk_"
+	match i:
+		0:  return prefix + "E"
+		1:  return prefix + "NEE"
+		2:  return prefix + "NE"
+		3:  return prefix + "NNE"
+		4:  return prefix + "N"
+		5:  return prefix + "NNW"
+		6:  return prefix + "NW"
+		7:  return prefix + "NWW"
+		8:  return prefix + "W"
+		9:  return prefix + "SWW"
+		10: return prefix + "SW"
+		11: return prefix + "SSW"
+		12: return prefix + "S"
+		13: return prefix + "SSE"
+		14: return prefix + "SE"
+		15: return prefix + "SEE"
+	return prefix + "E"
