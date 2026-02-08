@@ -4,6 +4,21 @@
 [ext_resource type="PackedScene" uid="uid://465eabcm0yrm" path="res://scenes/Player.tscn" id="2_vcsgt"]
 [ext_resource type="Script" uid="uid://dvlr6mjbe2wc8" path="res://scripts/player.gd" id="3_c01mt"]
 [ext_resource type="Texture2D" uid="uid://dcllj7ot8u5bm" path="res://assets/playable character/warrior/warrior_armed_idle/E/warrior_armed_idle_E_0.0_0.png" id="4_nxtc6"]
+[ext_resource type="Texture2D" uid="uid://dyixxlfodth0w" path="res://assets/playable character/warrior/warrior_armed_idle/NEE/warrior_armed_idle_NEE_22.5_0.png" id="5_nfivy"]
+[ext_resource type="Texture2D" uid="uid://cb6a10vrit03p" path="res://assets/playable character/warrior/warrior_armed_idle/NE/warrior_armed_idle_NE_45.0_0.png" id="6_1nqs0"]
+[ext_resource type="Texture2D" uid="uid://ehfiomfsu8xb" path="res://assets/playable character/warrior/warrior_armed_idle/NNE/warrior_armed_idle_NNE_67.5_0.png" id="7_1iba3"]
+[ext_resource type="Texture2D" uid="uid://da8vgcvckyrlm" path="res://assets/playable character/warrior/warrior_armed_idle/N/warrior_armed_idle_N_90.0_0.png" id="8_yxlcp"]
+[ext_resource type="Texture2D" uid="uid://bbc6cul1b1abr" path="res://assets/playable character/warrior/warrior_armed_idle/NNW/warrior_armed_idle_NNW_112.5_0.png" id="9_ebg2g"]
+[ext_resource type="Texture2D" uid="uid://ea3gu3eii483" path="res://assets/playable character/warrior/warrior_armed_idle/NW/warrior_armed_idle_NW_135.0_0.png" id="10_2ofn6"]
+[ext_resource type="Texture2D" uid="uid://ctao074b7rhlq" path="res://assets/playable character/warrior/warrior_armed_idle/NWW/warrior_armed_idle_NWW_157.5_0.png" id="11_xa025"]
+[ext_resource type="Texture2D" uid="uid://ddg3emmth86f5" path="res://assets/playable character/warrior/warrior_armed_idle/W/warrior_armed_idle_W_180.0_0.png" id="12_36rkl"]
+[ext_resource type="Texture2D" uid="uid://ceum3no11bfmo" path="res://assets/playable character/warrior/warrior_armed_idle/SWW/warrior_armed_idle_SWW_202.5_0.png" id="13_fs0b5"]
+[ext_resource type="Texture2D" uid="uid://mywgxpi1v1d1" path="res://assets/playable character/warrior/warrior_armed_idle/SW/warrior_armed_idle_SW_225.0_0.png" id="14_ma7h6"]
+[ext_resource type="Texture2D" uid="uid://ckp651d86jqtt" path="res://assets/playable character/warrior/warrior_armed_idle/SSW/warrior_armed_idle_SSW_247.5_0.png" id="15_e2s0e"]
+[ext_resource type="Texture2D" uid="uid://cnyw656wsg73o" path="res://assets/playable character/warrior/warrior_armed_idle/S/warrior_armed_idle_S_270.0_0.png" id="16_gsxep"]
+[ext_resource type="Texture2D" uid="uid://lpagixhb1dkm" path="res://assets/playable character/warrior/warrior_armed_idle/SSE/warrior_armed_idle_SSE_292.5_0.png" id="17_v0vrg"]
+[ext_resource type="Texture2D" uid="uid://dpan56kvq8wk8" path="res://assets/playable character/warrior/warrior_armed_idle/SE/warrior_armed_idle_SE_315.0_0.png" id="18_dg70y"]
+[ext_resource type="Texture2D" uid="uid://di0osk0yc73vj" path="res://assets/playable character/warrior/warrior_armed_idle/SEE/warrior_armed_idle_SEE_337.5_0.png" id="19_pnhog"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jlsqs"]
 texture = ExtResource("1_rarhs")
@@ -293,6 +308,22 @@ tile_set = SubResource("TileSet_q8u5g")
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Player" unique_id=1903464982]
 motion_mode = 1
 script = ExtResource("3_c01mt")
+tex_E = ExtResource("4_nxtc6")
+tex_NEE = ExtResource("5_nfivy")
+tex_NE = ExtResource("6_1nqs0")
+tex_NNE = ExtResource("7_1iba3")
+tex_N = ExtResource("8_yxlcp")
+tex_NNW = ExtResource("9_ebg2g")
+tex_NW = ExtResource("10_2ofn6")
+tex_NWW = ExtResource("11_xa025")
+tex_W = ExtResource("12_36rkl")
+tex_SWW = ExtResource("13_fs0b5")
+tex_SW = ExtResource("14_ma7h6")
+tex_SSW = ExtResource("15_e2s0e")
+tex_S = ExtResource("16_gsxep")
+tex_SSE = ExtResource("17_v0vrg")
+tex_SE = ExtResource("18_dg70y")
+tex_SEE = ExtResource("19_pnhog")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player/CharacterBody2D" unique_id=110190009]
 texture = ExtResource("4_nxtc6")
@@ -302,6 +333,7 @@ position = Vector2(0, -18)
 shape = SubResource("CircleShape2D_lhr70")
 
 [node name="Camera2D" type="Camera2D" parent="Player/CharacterBody2D" unique_id=1590868978]
+zoom = Vector2(4.705, 4.705)
 
 [node name="Walls" type="StaticBody2D" parent="." unique_id=1691749619]
 
