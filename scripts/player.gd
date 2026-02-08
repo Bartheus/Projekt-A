@@ -44,40 +44,46 @@ func _update_sprite_16dir(dir: Vector2) -> void:
 		_set_texture_by_index(last_dir_index)
 		return
 
-	if Input.is_action_pressed("move_down"):
-		print("move_down pressed, dir=", dir)
-
-
 	var angle := atan2(-dir.y, dir.x) # 0=E, +CCW, uwaga: -dir.y bo w 2D Y rośnie w dół
-	var idx := int(round((angle / TAU) * 16.0)) % 16
+	var idx := wrapi(int(round((angle / TAU) * 16.0)), 0, 16)
 	last_dir_index = idx
 	_set_texture_by_index(idx)
 	
 
 
 func _set_texture_by_index(i: int) -> void:
+	var t: Texture2D = null
 	match i:
-		0:  sprite.texture = tex_E
-		1:  sprite.texture = tex_NEE
-		2:  sprite.texture = tex_NE
-		3:  sprite.texture = tex_NNE
-		4:  sprite.texture = tex_N
-		5:  sprite.texture = tex_NNW
-		6:  sprite.texture = tex_NW
-		7:  sprite.texture = tex_NWW
-		8:  sprite.texture = tex_W
-		9:  sprite.texture = tex_SWW
-		10: sprite.texture = tex_SW
-		11: sprite.texture = tex_SSW
-		12: sprite.texture = tex_S
-		13: sprite.texture = tex_SSE
-		14: sprite.texture = tex_SE
-		15: sprite.texture = tex_SEE
+		0:  t = tex_E
+		1:  t = tex_NEE
+		2:  t = tex_NE
+		3:  t = tex_NNE
+		4:  t = tex_N
+		5:  t = tex_NNW
+		6:  t = tex_NW
+		7:  t = tex_NWW
+		8:  t = tex_W
+		9:  t = tex_SWW
+		10: t = tex_SW
+		11: t = tex_SSW
+		12: t = tex_S
+		13: t = tex_SSE
+		14: t = tex_SE
+		15: t = tex_SEE
+
+	print("idx=", i, " null=", t == null)
+	if t != null:
+		sprite.texture = t
+
+		
+
 		
 func _get_mouse_dir() -> Vector2:
 	var mouse_pos := get_global_mouse_position()
 	var d := mouse_pos - global_position
 	if d.length() < 1.0:
 		return Vector2.ZERO
+		
+	
 	return d.normalized()
 	
