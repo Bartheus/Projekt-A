@@ -414,6 +414,134 @@ sources/0 = SubResource("TileSetAtlasSource_jlsqs")
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("4_nxtc6")
+}],
+"loop": true,
+"name": &"idle_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_yxlcp")
+}],
+"loop": true,
+"name": &"idle_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_1nqs0")
+}],
+"loop": true,
+"name": &"idle_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_nfivy")
+}],
+"loop": true,
+"name": &"idle_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_1iba3")
+}],
+"loop": true,
+"name": &"idle_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_ebg2g")
+}],
+"loop": true,
+"name": &"idle_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_2ofn6")
+}],
+"loop": true,
+"name": &"idle_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_xa025")
+}],
+"loop": true,
+"name": &"idle_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_gsxep")
+}],
+"loop": true,
+"name": &"idle_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_dg70y")
+}],
+"loop": true,
+"name": &"idle_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("19_pnhog")
+}],
+"loop": true,
+"name": &"idle_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_v0vrg")
+}],
+"loop": true,
+"name": &"idle_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_e2s0e")
+}],
+"loop": true,
+"name": &"idle_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_ma7h6")
+}],
+"loop": true,
+"name": &"idle_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_fs0b5")
+}],
+"loop": true,
+"name": &"idle_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_36rkl")
+}],
+"loop": true,
+"name": &"idle_W",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("20_fs0b5")
 }, {
 "duration": 1.0,
@@ -922,7 +1050,7 @@ tex_SEE = ExtResource("19_pnhog")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player/CharacterBody2D" unique_id=880464228]
 sprite_frames = SubResource("SpriteFrames_g6wdg")
-animation = &"walk_W"
+animation = &"idle_SSE"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/CharacterBody2D" unique_id=54811985]
 position = Vector2(0, -18)

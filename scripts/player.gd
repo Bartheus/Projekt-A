@@ -28,9 +28,9 @@ func _physics_process(delta: float) -> void:
 	velocity = move_dir * speed
 	move_and_slide()
 
-	# kierunek patrzenia: myszka (Hades style)
 	var aim_dir := _get_mouse_dir()
 	_update_anim_16dir(aim_dir, move_dir.length() > 0.01)
+
 
 func _get_mouse_dir() -> Vector2:
 	var mouse_pos := get_global_mouse_position()
@@ -38,21 +38,32 @@ func _get_mouse_dir() -> Vector2:
 	if d.length() < 1.0:
 		return Vector2.ZERO
 	return d.normalized()
-
+	
 func _update_anim_16dir(dir: Vector2, is_moving: bool) -> void:
 	if dir == Vector2.ZERO:
-		dir = Vector2.RIGHT # fallback
+		dir = Vector2.RIGHT
 
 	var angle := atan2(-dir.y, dir.x)
 	var idx := wrapi(int(round((angle / TAU) * 16.0)), 0, 16)
 	last_dir_index = idx
 
-	var anim := _anim_name_from_index(idx, is_moving)
+	var prefix := "walk_" if is_moving else "idle_"
+	var anim := _anim_name_from_index(idx, prefix)
+
+	# fallback: jak nie masz jeszcze idle dla jakiegoś kierunku, użyj walk
+	if not sprite.sprite_frames.has_animation(anim):
+		prefix = "walk_"
+		anim = _anim_name_from_index(idx, prefix)
+		if not sprite.sprite_frames.has_animation(anim):
+			return
+
+	# graj zawsze właściwą animację (idle/walk), żeby obrót myszką działał
 	if sprite.animation != anim:
 		sprite.play(anim)
 
-func _anim_name_from_index(i: int, is_moving: bool) -> String:
-	var prefix := "walk_"
+
+
+func _anim_name_from_index(i: int, prefix: String) -> String:
 	match i:
 		0:  return prefix + "E"
 		1:  return prefix + "NEE"
