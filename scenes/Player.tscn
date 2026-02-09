@@ -1,3 +1,778 @@
 [gd_scene format=3 uid="uid://465eabcm0yrm"]
 
+[ext_resource type="Script" uid="uid://dvlr6mjbe2wc8" path="res://scripts/player.gd" id="1_000wm"]
+[ext_resource type="Texture2D" uid="uid://dcllj7ot8u5bm" path="res://assets/playable character/warrior/warrior_armed_idle/E/warrior_armed_idle_E_0.0_0.png" id="2_gusmc"]
+[ext_resource type="Texture2D" uid="uid://dyixxlfodth0w" path="res://assets/playable character/warrior/warrior_armed_idle/NEE/warrior_armed_idle_NEE_22.5_0.png" id="3_g6jhj"]
+[ext_resource type="Texture2D" uid="uid://cb6a10vrit03p" path="res://assets/playable character/warrior/warrior_armed_idle/NE/warrior_armed_idle_NE_45.0_0.png" id="4_lpjdr"]
+[ext_resource type="Texture2D" uid="uid://ehfiomfsu8xb" path="res://assets/playable character/warrior/warrior_armed_idle/NNE/warrior_armed_idle_NNE_67.5_0.png" id="5_16erx"]
+[ext_resource type="Texture2D" uid="uid://da8vgcvckyrlm" path="res://assets/playable character/warrior/warrior_armed_idle/N/warrior_armed_idle_N_90.0_0.png" id="6_xt8w5"]
+[ext_resource type="Texture2D" uid="uid://bbc6cul1b1abr" path="res://assets/playable character/warrior/warrior_armed_idle/NNW/warrior_armed_idle_NNW_112.5_0.png" id="7_te0vs"]
+[ext_resource type="Texture2D" uid="uid://ea3gu3eii483" path="res://assets/playable character/warrior/warrior_armed_idle/NW/warrior_armed_idle_NW_135.0_0.png" id="8_2yprt"]
+[ext_resource type="Texture2D" uid="uid://ctao074b7rhlq" path="res://assets/playable character/warrior/warrior_armed_idle/NWW/warrior_armed_idle_NWW_157.5_0.png" id="9_swmfq"]
+[ext_resource type="Texture2D" uid="uid://ddg3emmth86f5" path="res://assets/playable character/warrior/warrior_armed_idle/W/warrior_armed_idle_W_180.0_0.png" id="10_qeklt"]
+[ext_resource type="Texture2D" uid="uid://ceum3no11bfmo" path="res://assets/playable character/warrior/warrior_armed_idle/SWW/warrior_armed_idle_SWW_202.5_0.png" id="11_stxll"]
+[ext_resource type="Texture2D" uid="uid://mywgxpi1v1d1" path="res://assets/playable character/warrior/warrior_armed_idle/SW/warrior_armed_idle_SW_225.0_0.png" id="12_qav1c"]
+[ext_resource type="Texture2D" uid="uid://ckp651d86jqtt" path="res://assets/playable character/warrior/warrior_armed_idle/SSW/warrior_armed_idle_SSW_247.5_0.png" id="13_ype7c"]
+[ext_resource type="Texture2D" uid="uid://cnyw656wsg73o" path="res://assets/playable character/warrior/warrior_armed_idle/S/warrior_armed_idle_S_270.0_0.png" id="14_tm7bl"]
+[ext_resource type="Texture2D" uid="uid://lpagixhb1dkm" path="res://assets/playable character/warrior/warrior_armed_idle/SSE/warrior_armed_idle_SSE_292.5_0.png" id="15_qwght"]
+[ext_resource type="Texture2D" uid="uid://dpan56kvq8wk8" path="res://assets/playable character/warrior/warrior_armed_idle/SE/warrior_armed_idle_SE_315.0_0.png" id="16_5trrr"]
+[ext_resource type="Texture2D" uid="uid://di0osk0yc73vj" path="res://assets/playable character/warrior/warrior_armed_idle/SEE/warrior_armed_idle_SEE_337.5_0.png" id="17_76m0h"]
+[ext_resource type="Texture2D" uid="uid://bh7mx6oj3os4" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_0.png" id="18_e4is1"]
+[ext_resource type="Texture2D" uid="uid://robgsqyov5n1" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_1.png" id="19_m46cm"]
+[ext_resource type="Texture2D" uid="uid://cvwiqn7bylofy" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_2.png" id="20_dwosq"]
+[ext_resource type="Texture2D" uid="uid://c87ejcg5b4ytn" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_3.png" id="21_dlpnu"]
+[ext_resource type="Texture2D" uid="uid://cfbmh1auyxmrc" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_4.png" id="22_rabc0"]
+[ext_resource type="Texture2D" uid="uid://qwi31k3flr4e" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_5.png" id="23_j7ddg"]
+[ext_resource type="Texture2D" uid="uid://c3rb1new1iw4e" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_6.png" id="24_hoa85"]
+[ext_resource type="Texture2D" uid="uid://c5ey8w322i66i" path="res://assets/playable character/warrior/warrior_armed_walk/E/warrior_armed_walk_E_0.0_7.png" id="25_pqeuo"]
+[ext_resource type="Texture2D" uid="uid://wgsc7ikvh52n" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_0.png" id="26_sw3g4"]
+[ext_resource type="Texture2D" uid="uid://bkpasnfcab2n7" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_1.png" id="27_068sr"]
+[ext_resource type="Texture2D" uid="uid://dxoub6vsp226q" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_2.png" id="28_7g5yk"]
+[ext_resource type="Texture2D" uid="uid://bgwsr5yj7iso5" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_3.png" id="29_t5xgy"]
+[ext_resource type="Texture2D" uid="uid://dvtlqh55rfvpo" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_4.png" id="30_rfy5u"]
+[ext_resource type="Texture2D" uid="uid://difwfiesogo1f" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_5.png" id="31_p18ga"]
+[ext_resource type="Texture2D" uid="uid://bdde1u6vmr3n4" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_6.png" id="32_ayaxy"]
+[ext_resource type="Texture2D" uid="uid://duuvx07bf5f6q" path="res://assets/playable character/warrior/warrior_armed_walk/N/warrior_armed_walk_N_90.0_7.png" id="33_fgvl0"]
+[ext_resource type="Texture2D" uid="uid://dc6bef5rcnyj3" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_0.png" id="34_obvch"]
+[ext_resource type="Texture2D" uid="uid://csx64h6yb3dm8" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_1.png" id="35_vdw3n"]
+[ext_resource type="Texture2D" uid="uid://dxd7m1uky4ti" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_2.png" id="36_pygm2"]
+[ext_resource type="Texture2D" uid="uid://c00bd5t6elymr" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_3.png" id="37_628te"]
+[ext_resource type="Texture2D" uid="uid://dn6ounfh6h410" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_4.png" id="38_vc327"]
+[ext_resource type="Texture2D" uid="uid://c3hvf6alfik8k" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_5.png" id="39_ydne1"]
+[ext_resource type="Texture2D" uid="uid://deguogr0rhsd8" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_6.png" id="40_g0rh5"]
+[ext_resource type="Texture2D" uid="uid://b383emb62pcgp" path="res://assets/playable character/warrior/warrior_armed_walk/NE/warrior_armed_walk_NE_45.0_7.png" id="41_7ed2n"]
+[ext_resource type="Texture2D" uid="uid://c7k6c12jydy6c" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_0.png" id="42_78153"]
+[ext_resource type="Texture2D" uid="uid://die06mvja770" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_1.png" id="43_vilmv"]
+[ext_resource type="Texture2D" uid="uid://cfwheqh1dened" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_2.png" id="44_sx7q6"]
+[ext_resource type="Texture2D" uid="uid://dqmta51jbguwf" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_3.png" id="45_7x34y"]
+[ext_resource type="Texture2D" uid="uid://bdxtljctvprqf" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_4.png" id="46_86tsn"]
+[ext_resource type="Texture2D" uid="uid://botvykoqhlcwv" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_5.png" id="47_ou0vc"]
+[ext_resource type="Texture2D" uid="uid://cv7eicmyxpwq6" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_6.png" id="48_tujmk"]
+[ext_resource type="Texture2D" uid="uid://ftoihs5d2sd7" path="res://assets/playable character/warrior/warrior_armed_walk/NEE/warrior_armed_walk_NEE_22.5_7.png" id="49_ngxce"]
+[ext_resource type="Texture2D" uid="uid://cmnyqhtpqh4hb" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_0.png" id="50_o4421"]
+[ext_resource type="Texture2D" uid="uid://bdcxt3k5fgj8q" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_1.png" id="51_7rmil"]
+[ext_resource type="Texture2D" uid="uid://db40ibvqdqnwo" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_2.png" id="52_8xyap"]
+[ext_resource type="Texture2D" uid="uid://di5cqmeu71ujy" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_3.png" id="53_5dwh2"]
+[ext_resource type="Texture2D" uid="uid://cpa0eicowan8s" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_4.png" id="54_v2dqn"]
+[ext_resource type="Texture2D" uid="uid://d6dgd2x4x7hn" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_5.png" id="55_n8b5i"]
+[ext_resource type="Texture2D" uid="uid://bsjewx343fokh" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_6.png" id="56_plc60"]
+[ext_resource type="Texture2D" uid="uid://rwxfif2jsppu" path="res://assets/playable character/warrior/warrior_armed_walk/NNE/warrior_armed_walk_NNE_67.5_7.png" id="57_fm2o7"]
+[ext_resource type="Texture2D" uid="uid://b3cxu8vqh7fgu" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_0.png" id="58_qwxni"]
+[ext_resource type="Texture2D" uid="uid://ddal2pnco2075" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_1.png" id="59_5mvin"]
+[ext_resource type="Texture2D" uid="uid://rya8l8bpg734" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_2.png" id="60_aa4dh"]
+[ext_resource type="Texture2D" uid="uid://dcpt3y2lqnfd7" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_3.png" id="61_7al30"]
+[ext_resource type="Texture2D" uid="uid://du6fp80orlmo3" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_4.png" id="62_ii6j4"]
+[ext_resource type="Texture2D" uid="uid://68yxyooaat6h" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_5.png" id="63_orr6q"]
+[ext_resource type="Texture2D" uid="uid://bltimkur4e3jq" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_6.png" id="64_uhmpf"]
+[ext_resource type="Texture2D" uid="uid://ccixg1i7xodgk" path="res://assets/playable character/warrior/warrior_armed_walk/NNW/warrior_armed_walk_NNW_112.5_7.png" id="65_dwmcu"]
+[ext_resource type="Texture2D" uid="uid://bxw6sfvq6vqvm" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_0.png" id="66_fhc0b"]
+[ext_resource type="Texture2D" uid="uid://dtquxmhpd2u7h" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_1.png" id="67_4hc25"]
+[ext_resource type="Texture2D" uid="uid://bxkgf3t7vtfpn" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_2.png" id="68_hcds7"]
+[ext_resource type="Texture2D" uid="uid://dmrxj7ass407j" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_3.png" id="69_6xcpi"]
+[ext_resource type="Texture2D" uid="uid://d37qb5phqj1qn" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_4.png" id="70_0ybu3"]
+[ext_resource type="Texture2D" uid="uid://cfkhp6xedh0xt" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_5.png" id="71_n5pma"]
+[ext_resource type="Texture2D" uid="uid://bylenfde6piuy" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_6.png" id="72_kvby3"]
+[ext_resource type="Texture2D" uid="uid://dcw3fae77q3hb" path="res://assets/playable character/warrior/warrior_armed_walk/NW/warrior_armed_walk_NW_135.0_7.png" id="73_s2d8g"]
+[ext_resource type="Texture2D" uid="uid://cufmhkkmlg705" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_0.png" id="74_5ifno"]
+[ext_resource type="Texture2D" uid="uid://du14u8cu3vdu1" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_1.png" id="75_4oq2v"]
+[ext_resource type="Texture2D" uid="uid://c6w8ywanh0bh7" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_2.png" id="76_affpy"]
+[ext_resource type="Texture2D" uid="uid://k8l8w0qba7bc" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_3.png" id="77_x25d1"]
+[ext_resource type="Texture2D" uid="uid://cxpyxlmweoyj3" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_4.png" id="78_dxpoj"]
+[ext_resource type="Texture2D" uid="uid://c34qg8k025e83" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_5.png" id="79_x4cnb"]
+[ext_resource type="Texture2D" uid="uid://ci5os0hsydrri" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_6.png" id="80_n1hs0"]
+[ext_resource type="Texture2D" uid="uid://ctjenenq3frbg" path="res://assets/playable character/warrior/warrior_armed_walk/NWW/warrior_armed_walk_NWW_157.5_7.png" id="81_po4qw"]
+[ext_resource type="Texture2D" uid="uid://dkr24mvw4tdjs" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_0.png" id="82_7hc6u"]
+[ext_resource type="Texture2D" uid="uid://cskmbrrbiduty" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_1.png" id="83_ej7qx"]
+[ext_resource type="Texture2D" uid="uid://b3dkws554ua38" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_2.png" id="84_et8qn"]
+[ext_resource type="Texture2D" uid="uid://dd5s8qrnah2j8" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_3.png" id="85_kmhil"]
+[ext_resource type="Texture2D" uid="uid://c8f5rhurwqmr0" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_4.png" id="86_454ak"]
+[ext_resource type="Texture2D" uid="uid://w8442r7wwhef" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_5.png" id="87_eosdi"]
+[ext_resource type="Texture2D" uid="uid://duo7qfj7kg0bf" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_6.png" id="88_vxyme"]
+[ext_resource type="Texture2D" uid="uid://bdurtgd8wmjbs" path="res://assets/playable character/warrior/warrior_armed_walk/S/warrior_armed_walk_S_270.0_7.png" id="89_rw81s"]
+[ext_resource type="Texture2D" uid="uid://f2q7foru88tx" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_0.png" id="90_vb6jg"]
+[ext_resource type="Texture2D" uid="uid://ckce54g354rxv" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_1.png" id="91_k1n8d"]
+[ext_resource type="Texture2D" uid="uid://b1vgfgqbmj4v6" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_2.png" id="92_wdbq4"]
+[ext_resource type="Texture2D" uid="uid://b6qxr05oaw8ao" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_3.png" id="93_u2xao"]
+[ext_resource type="Texture2D" uid="uid://bv5slbj851nyr" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_4.png" id="94_hl84s"]
+[ext_resource type="Texture2D" uid="uid://v7ucw6x8ayyc" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_5.png" id="95_1imko"]
+[ext_resource type="Texture2D" uid="uid://d3lmekw64umdn" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_6.png" id="96_y2177"]
+[ext_resource type="Texture2D" uid="uid://csd1rr4pxgg3" path="res://assets/playable character/warrior/warrior_armed_walk/SE/warrior_armed_walk_SE_315.0_7.png" id="97_oxqpl"]
+[ext_resource type="Texture2D" uid="uid://b7gwtaors22o6" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_0.png" id="98_i0fix"]
+[ext_resource type="Texture2D" uid="uid://bqx08u7ihjeth" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_1.png" id="99_pwtuc"]
+[ext_resource type="Texture2D" uid="uid://kt1tnrtol4k0" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_2.png" id="100_r03qe"]
+[ext_resource type="Texture2D" uid="uid://dpeu4s70eue8e" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_3.png" id="101_twbbq"]
+[ext_resource type="Texture2D" uid="uid://du4ojkqr0a87h" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_4.png" id="102_185pm"]
+[ext_resource type="Texture2D" uid="uid://6uwowm5dto3a" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_5.png" id="103_4u0rw"]
+[ext_resource type="Texture2D" uid="uid://k8odrbycoi3q" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_6.png" id="104_rgeti"]
+[ext_resource type="Texture2D" uid="uid://dslv0gxg106fw" path="res://assets/playable character/warrior/warrior_armed_walk/SEE/warrior_armed_walk_SEE_337.5_7.png" id="105_16oai"]
+[ext_resource type="Texture2D" uid="uid://dira01opwaucj" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_0.png" id="106_lvxu3"]
+[ext_resource type="Texture2D" uid="uid://cjm45gihniwlm" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_1.png" id="107_gvc6n"]
+[ext_resource type="Texture2D" uid="uid://bl5fys0awo8ty" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_2.png" id="108_1y5qc"]
+[ext_resource type="Texture2D" uid="uid://b1576egkudt2a" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_3.png" id="109_jwocw"]
+[ext_resource type="Texture2D" uid="uid://cnuy0l1uys3pd" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_4.png" id="110_ices1"]
+[ext_resource type="Texture2D" uid="uid://21n5sniblw7g" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_5.png" id="111_nfpl2"]
+[ext_resource type="Texture2D" uid="uid://cwxumtuxy3n6j" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_6.png" id="112_7eqoq"]
+[ext_resource type="Texture2D" uid="uid://daretag3347xx" path="res://assets/playable character/warrior/warrior_armed_walk/SSE/warrior_armed_walk_SSE_292.5_7.png" id="113_m7nyl"]
+[ext_resource type="Texture2D" uid="uid://ckf4gnoon3cxv" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_0.png" id="114_bfydh"]
+[ext_resource type="Texture2D" uid="uid://bhjug87afcqt4" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_1.png" id="115_4c2iy"]
+[ext_resource type="Texture2D" uid="uid://dkyqfwsk3utf2" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_2.png" id="116_3cfcf"]
+[ext_resource type="Texture2D" uid="uid://dpy7nfctvr0ex" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_3.png" id="117_66845"]
+[ext_resource type="Texture2D" uid="uid://bbptmqrp82nsp" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_4.png" id="118_rf2sd"]
+[ext_resource type="Texture2D" uid="uid://2is0vacai4sq" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_5.png" id="119_yrs3x"]
+[ext_resource type="Texture2D" uid="uid://dctiyt1dgplf5" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_6.png" id="120_lc32x"]
+[ext_resource type="Texture2D" uid="uid://c6c1lvjjwfjar" path="res://assets/playable character/warrior/warrior_armed_walk/SSW/warrior_armed_walk_SSW_247.5_7.png" id="121_ophvj"]
+[ext_resource type="Texture2D" uid="uid://d28h7ng4dndge" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_0.png" id="122_r8xu7"]
+[ext_resource type="Texture2D" uid="uid://bwyi2nlavqu0y" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_1.png" id="123_wxgkb"]
+[ext_resource type="Texture2D" uid="uid://uc47klcyq6hp" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_2.png" id="124_5oj5b"]
+[ext_resource type="Texture2D" uid="uid://b54kqvibc41e4" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_3.png" id="125_3sjc0"]
+[ext_resource type="Texture2D" uid="uid://330ujf1y0g6" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_4.png" id="126_ivljp"]
+[ext_resource type="Texture2D" uid="uid://b2qm3trxf52v5" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_5.png" id="127_uprk5"]
+[ext_resource type="Texture2D" uid="uid://6wlw6o3kbwqg" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_6.png" id="128_01332"]
+[ext_resource type="Texture2D" uid="uid://d115uf77ojb72" path="res://assets/playable character/warrior/warrior_armed_walk/SW/warrior_armed_walk_SW_225.0_7.png" id="129_w3s80"]
+[ext_resource type="Texture2D" uid="uid://cv1uhunnmico5" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_0.png" id="130_tqcup"]
+[ext_resource type="Texture2D" uid="uid://11us4c3uii51" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_1.png" id="131_w4vku"]
+[ext_resource type="Texture2D" uid="uid://cemwwknyu1q0m" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_2.png" id="132_u7uti"]
+[ext_resource type="Texture2D" uid="uid://dhhb73w7b5d2r" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_3.png" id="133_g2j7s"]
+[ext_resource type="Texture2D" uid="uid://c6rg7rvwwc67v" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_4.png" id="134_7w7tv"]
+[ext_resource type="Texture2D" uid="uid://b8jglmjrm411l" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_5.png" id="135_yufms"]
+[ext_resource type="Texture2D" uid="uid://vvyq416nokv0" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_6.png" id="136_2j1xk"]
+[ext_resource type="Texture2D" uid="uid://mqrbk01vsdok" path="res://assets/playable character/warrior/warrior_armed_walk/SWW/warrior_armed_walk_SWW_202.5_7.png" id="137_alg6r"]
+[ext_resource type="Texture2D" uid="uid://kbqvtpo7j68y" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_0.png" id="138_kg4td"]
+[ext_resource type="Texture2D" uid="uid://dmykcv0ycrtg5" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_1.png" id="139_k4m7n"]
+[ext_resource type="Texture2D" uid="uid://1kf2gdqf142q" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_2.png" id="140_tf3ww"]
+[ext_resource type="Texture2D" uid="uid://mqw5m2skmckt" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_3.png" id="141_igly5"]
+[ext_resource type="Texture2D" uid="uid://r7kqng2uug27" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_4.png" id="142_np1rh"]
+[ext_resource type="Texture2D" uid="uid://bj8alasviyhmg" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_5.png" id="143_2maww"]
+[ext_resource type="Texture2D" uid="uid://bbjyk3rq1mjr5" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_6.png" id="144_lvbpg"]
+[ext_resource type="Texture2D" uid="uid://0anrjyhejpdp" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_7.png" id="145_5fqjo"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ch5if"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_gusmc")
+}],
+"loop": true,
+"name": &"idle_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_xt8w5")
+}],
+"loop": true,
+"name": &"idle_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_lpjdr")
+}],
+"loop": true,
+"name": &"idle_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_g6jhj")
+}],
+"loop": true,
+"name": &"idle_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_16erx")
+}],
+"loop": true,
+"name": &"idle_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_te0vs")
+}],
+"loop": true,
+"name": &"idle_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_2yprt")
+}],
+"loop": true,
+"name": &"idle_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_swmfq")
+}],
+"loop": true,
+"name": &"idle_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_tm7bl")
+}],
+"loop": true,
+"name": &"idle_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_5trrr")
+}],
+"loop": true,
+"name": &"idle_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_76m0h")
+}],
+"loop": true,
+"name": &"idle_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_qwght")
+}],
+"loop": true,
+"name": &"idle_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_ype7c")
+}],
+"loop": true,
+"name": &"idle_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_qav1c")
+}],
+"loop": true,
+"name": &"idle_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_stxll")
+}],
+"loop": true,
+"name": &"idle_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_qeklt")
+}],
+"loop": true,
+"name": &"idle_W",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_e4is1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_m46cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_dwosq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_dlpnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_rabc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_j7ddg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_hoa85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_pqeuo")
+}],
+"loop": true,
+"name": &"walk_E",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_sw3g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_068sr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_7g5yk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_t5xgy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_rfy5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_p18ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_ayaxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_fgvl0")
+}],
+"loop": true,
+"name": &"walk_N",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("34_obvch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_vdw3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_pygm2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_628te")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_vc327")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_ydne1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_g0rh5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_7ed2n")
+}],
+"loop": true,
+"name": &"walk_NE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("42_78153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_vilmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_sx7q6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_7x34y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_86tsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ou0vc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_tujmk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_ngxce")
+}],
+"loop": true,
+"name": &"walk_NEE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("50_o4421")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_7rmil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_8xyap")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_5dwh2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_v2dqn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_n8b5i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_plc60")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_fm2o7")
+}],
+"loop": true,
+"name": &"walk_NNE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("58_qwxni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_5mvin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_aa4dh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_7al30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_ii6j4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_orr6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_uhmpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_dwmcu")
+}],
+"loop": true,
+"name": &"walk_NNW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("66_fhc0b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_4hc25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_hcds7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_6xcpi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_0ybu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_n5pma")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_kvby3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_s2d8g")
+}],
+"loop": true,
+"name": &"walk_NW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("74_5ifno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_4oq2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_affpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_x25d1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_dxpoj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_x4cnb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_n1hs0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_po4qw")
+}],
+"loop": true,
+"name": &"walk_NWW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("82_7hc6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_ej7qx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_et8qn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_kmhil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_454ak")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_eosdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_vxyme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_rw81s")
+}],
+"loop": true,
+"name": &"walk_S",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("90_vb6jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_k1n8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_wdbq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_u2xao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_hl84s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_1imko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_y2177")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_oxqpl")
+}],
+"loop": true,
+"name": &"walk_SE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("98_i0fix")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_pwtuc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_r03qe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_twbbq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_185pm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_4u0rw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_rgeti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_16oai")
+}],
+"loop": true,
+"name": &"walk_SEE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("106_lvxu3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_gvc6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_1y5qc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_jwocw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_ices1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_nfpl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_7eqoq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_m7nyl")
+}],
+"loop": true,
+"name": &"walk_SSE",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("114_bfydh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_4c2iy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_3cfcf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_66845")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_rf2sd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_yrs3x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_lc32x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_ophvj")
+}],
+"loop": true,
+"name": &"walk_SSW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("122_r8xu7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_wxgkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_5oj5b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_3sjc0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_ivljp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_uprk5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_01332")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_w3s80")
+}],
+"loop": true,
+"name": &"walk_SW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("130_tqcup")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_w4vku")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_u7uti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_g2j7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_7w7tv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_yufms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_2j1xk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_alg6r")
+}],
+"loop": true,
+"name": &"walk_SWW",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("138_kg4td")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_k4m7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_tf3ww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_igly5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_np1rh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_2maww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_lvbpg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_5fqjo")
+}],
+"loop": true,
+"name": &"walk_W",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cntth"]
+radius = 11.045361
+
 [node name="Player" type="Node2D" unique_id=1263938348]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1459506276]
+motion_mode = 1
+script = ExtResource("1_000wm")
+tex_E = ExtResource("2_gusmc")
+tex_NEE = ExtResource("3_g6jhj")
+tex_NE = ExtResource("4_lpjdr")
+tex_NNE = ExtResource("5_16erx")
+tex_N = ExtResource("6_xt8w5")
+tex_NNW = ExtResource("7_te0vs")
+tex_NW = ExtResource("8_2yprt")
+tex_NWW = ExtResource("9_swmfq")
+tex_W = ExtResource("10_qeklt")
+tex_SWW = ExtResource("11_stxll")
+tex_SW = ExtResource("12_qav1c")
+tex_SSW = ExtResource("13_ype7c")
+tex_S = ExtResource("14_tm7bl")
+tex_SSE = ExtResource("15_qwght")
+tex_SE = ExtResource("16_5trrr")
+tex_SEE = ExtResource("17_76m0h")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1921991705]
+sprite_frames = SubResource("SpriteFrames_ch5if")
+animation = &"idle_SSE"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=365032400]
+position = Vector2(0, -18)
+shape = SubResource("CircleShape2D_cntth")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=257414699]
+zoom = Vector2(4.705, 4.705)
