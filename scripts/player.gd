@@ -21,15 +21,45 @@ extends CharacterBody2D
 @export var tex_SE: Texture2D
 @export var tex_SEE: Texture2D
 
+@export var attack_rate := 3.0        # ataki na sekundę (3 = co ~0.33s)
+@export var attack_active_time := 0.08 # ile sekund hitbox jest aktywny
+
+@onready var attack_area: Area2D = $AttackArea
+@onready var attack_shape: CollisionShape2D = $AttackArea/CollisionShape2D
+
+var _attack_cd := 0.0
+var _attack_timer := 0.0
+var _is_attacking := false
+
+
 var last_dir_index := 0
 
 func _physics_process(delta: float) -> void:
+	# Ruch
 	var move_dir := Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	velocity = move_dir * speed
 	move_and_slide()
 
 	var aim_dir := _get_mouse_dir()
-	_update_anim_16dir(aim_dir, move_dir.length() > 0.01)
+
+	# cooldown attack
+	if _attack_cd > 0.0:
+		_attack_cd -= delta
+
+	# timer hitboxa (może zostać, ale na razie nie musi)
+	if _attack_timer > 0.0:
+		_attack_timer -= delta
+		if _attack_timer <= 0.0:
+			attack_shape.disabled = true
+
+	# AUTO-ATTACK: trzymasz LMB
+	if Input.is_action_pressed("attack") and _attack_cd <= 0.0 and not _is_attacking:
+		_do_attack()
+		return  # ważne: nie odpalaj walk/idle w tej klatce
+
+	# Jeśli NIE atakujesz, normalne animacje myszka + walk/idle
+	if not _is_attacking:
+		_update_anim_16dir(aim_dir, move_dir.length() > 0.01)
 
 
 func _get_mouse_dir() -> Vector2:
@@ -82,3 +112,34 @@ func _anim_name_from_index(i: int, prefix: String) -> String:
 		14: return prefix + "SE"
 		15: return prefix + "SEE"
 	return prefix + "E"
+
+func _ready() -> void:
+	attack_shape.disabled = true
+	
+func _do_attack() -> void:
+	_is_attacking = true
+	_attack_cd = 1.0 / attack_rate
+
+	var dir := _get_mouse_dir()
+	if dir == Vector2.ZERO:
+		dir = Vector2.RIGHT
+
+	var angle := atan2(-dir.y, dir.x)
+	var idx := wrapi(int(round((angle / TAU) * 16.0)), 0, 16)
+	last_dir_index = idx
+
+	var anim := _anim_name_from_index(idx, "attack_")
+
+	# fallback jakby brakowało któregoś kierunku
+	if not sprite.sprite_frames.has_animation(anim):
+		anim = "attack_E"
+		if not sprite.sprite_frames.has_animation(anim):
+			_is_attacking = false
+			return
+
+	sprite.play(anim)
+
+	# koniec ataku po zakończeniu animacji
+	sprite.animation_finished.connect(func():
+		_is_attacking = false
+	, CONNECT_ONE_SHOT)
