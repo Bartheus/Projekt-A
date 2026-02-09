@@ -273,6 +273,134 @@
 [ext_resource type="Texture2D" uid="uid://do22t4qn8s8tf" path="res://assets/playable character/warrior/warrior_armed_attack/W/warrior_armed_attack_W_180.0_6.png" id="144_tt5dn"]
 [ext_resource type="Texture2D" uid="uid://0anrjyhejpdp" path="res://assets/playable character/warrior/warrior_armed_walk/W/warrior_armed_walk_W_180.0_7.png" id="145_5fqjo"]
 [ext_resource type="Texture2D" uid="uid://j4mokjdwqdkw" path="res://assets/playable character/warrior/warrior_armed_attack/W/warrior_armed_attack_W_180.0_7.png" id="145_sxhd6"]
+[ext_resource type="Texture2D" uid="uid://cyr22d06pq85v" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_0.png" id="146_nnkye"]
+[ext_resource type="Texture2D" uid="uid://jm77sq60wv2d" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_1.png" id="147_bijtv"]
+[ext_resource type="Texture2D" uid="uid://cq08v2gncytw7" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_2.png" id="148_cox4h"]
+[ext_resource type="Texture2D" uid="uid://c2yw8s1q536tp" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_3.png" id="149_m8mil"]
+[ext_resource type="Texture2D" uid="uid://bo35lfuw3yksq" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_4.png" id="150_sp153"]
+[ext_resource type="Texture2D" uid="uid://g7wv3v7ojs68" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_5.png" id="151_ct22b"]
+[ext_resource type="Texture2D" uid="uid://cuet147jbpbe3" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_6.png" id="152_tb6p6"]
+[ext_resource type="Texture2D" uid="uid://dkofb0uo2x1aa" path="res://assets/playable character/warrior/warrior_special_death/E/warrior_special_death_E_0.0_7.png" id="153_47iib"]
+[ext_resource type="Texture2D" uid="uid://brhu3arbysqqs" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_0.png" id="154_trcoo"]
+[ext_resource type="Texture2D" uid="uid://cgehi30epydew" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_1.png" id="155_mfiqb"]
+[ext_resource type="Texture2D" uid="uid://d1sofwyiy10lf" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_2.png" id="156_yct00"]
+[ext_resource type="Texture2D" uid="uid://bqrh0ahxoa0g3" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_3.png" id="157_i0ggh"]
+[ext_resource type="Texture2D" uid="uid://bmyuyvnrk6fjm" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_4.png" id="158_raxty"]
+[ext_resource type="Texture2D" uid="uid://jyslamca7hlg" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_5.png" id="159_dq06y"]
+[ext_resource type="Texture2D" uid="uid://csxca03y20bml" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_6.png" id="160_6edkg"]
+[ext_resource type="Texture2D" uid="uid://usn63e5yfm1a" path="res://assets/playable character/warrior/warrior_special_death/N/warrior_special_death_N_90.0_7.png" id="161_gw8vp"]
+[ext_resource type="Texture2D" uid="uid://b11vbvpaxvyup" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_0.png" id="162_h3voc"]
+[ext_resource type="Texture2D" uid="uid://b8xt5demqjdn5" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_1.png" id="163_kopjh"]
+[ext_resource type="Texture2D" uid="uid://c1oagmcjbmuny" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_2.png" id="164_5tmt7"]
+[ext_resource type="Texture2D" uid="uid://bkmt2wikj8f5e" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_3.png" id="165_246s2"]
+[ext_resource type="Texture2D" uid="uid://b5ywtqoemqbs5" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_4.png" id="166_0tit5"]
+[ext_resource type="Texture2D" uid="uid://da447jkjgrh4w" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_5.png" id="167_3qxii"]
+[ext_resource type="Texture2D" uid="uid://cstrkt3umskdg" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_6.png" id="168_15a3u"]
+[ext_resource type="Texture2D" uid="uid://cs8klrfedfk2g" path="res://assets/playable character/warrior/warrior_special_death/NE/warrior_special_death_NE_45.0_7.png" id="169_m35kf"]
+[ext_resource type="Texture2D" uid="uid://c23j2v5vpout1" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_0.png" id="170_uhr4i"]
+[ext_resource type="Texture2D" uid="uid://bo6xp1ty2wcw5" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_1.png" id="171_sjrhk"]
+[ext_resource type="Texture2D" uid="uid://dv8jwpbidexlq" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_2.png" id="172_nngyt"]
+[ext_resource type="Texture2D" uid="uid://b3urr52qnby5r" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_3.png" id="173_phqgd"]
+[ext_resource type="Texture2D" uid="uid://bilos3a5vu1ia" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_4.png" id="174_pe5el"]
+[ext_resource type="Texture2D" uid="uid://j6d3fue5v4v4" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_5.png" id="175_b6tnh"]
+[ext_resource type="Texture2D" uid="uid://bqpfm6ql3n0u2" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_6.png" id="176_o3tl7"]
+[ext_resource type="Texture2D" uid="uid://dwa67mnrnfyfy" path="res://assets/playable character/warrior/warrior_special_death/NEE/warrior_special_death_NEE_22.5_7.png" id="177_dcx5f"]
+[ext_resource type="Texture2D" uid="uid://bxo16is0thqjk" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_0.png" id="178_j33xr"]
+[ext_resource type="Texture2D" uid="uid://k1ty7vfjlrsk" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_1.png" id="179_cop56"]
+[ext_resource type="Texture2D" uid="uid://dfdk0j83jef5m" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_2.png" id="180_im1lu"]
+[ext_resource type="Texture2D" uid="uid://cyholti022wo5" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_3.png" id="181_e05d0"]
+[ext_resource type="Texture2D" uid="uid://kfosl1ki3syo" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_4.png" id="182_cjqfx"]
+[ext_resource type="Texture2D" uid="uid://ta0xubw0rief" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_5.png" id="183_oxq8j"]
+[ext_resource type="Texture2D" uid="uid://bmqsj06bd2als" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_6.png" id="184_25xb2"]
+[ext_resource type="Texture2D" uid="uid://c3pwd8bcrxuqd" path="res://assets/playable character/warrior/warrior_special_death/NNE/warrior_special_death_NNE_67.5_7.png" id="185_6tjf8"]
+[ext_resource type="Texture2D" uid="uid://d4khqq2qcwolu" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_0.png" id="186_nv8t5"]
+[ext_resource type="Texture2D" uid="uid://bn36r27p0qnf5" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_1.png" id="187_5mqo4"]
+[ext_resource type="Texture2D" uid="uid://cgvdi7374h1oo" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_2.png" id="188_vhwah"]
+[ext_resource type="Texture2D" uid="uid://weiquouvea15" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_3.png" id="189_gkyfb"]
+[ext_resource type="Texture2D" uid="uid://bscxctmac7gkp" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_4.png" id="190_gnkgc"]
+[ext_resource type="Texture2D" uid="uid://bnmu1ytujj5qg" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_5.png" id="191_ccqto"]
+[ext_resource type="Texture2D" uid="uid://dgdb7b8fsfm8l" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_6.png" id="192_0t8da"]
+[ext_resource type="Texture2D" uid="uid://ct21d4eubsm56" path="res://assets/playable character/warrior/warrior_special_death/NNW/warrior_special_death_NNW_112.5_7.png" id="193_xw8n3"]
+[ext_resource type="Texture2D" uid="uid://csuv8fd3utv4f" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_0.png" id="194_eqc0g"]
+[ext_resource type="Texture2D" uid="uid://cf0salqgqoavt" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_1.png" id="195_8e15x"]
+[ext_resource type="Texture2D" uid="uid://c7iujy5ch1h5x" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_2.png" id="196_v35h3"]
+[ext_resource type="Texture2D" uid="uid://co5ujfws00avh" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_3.png" id="197_d1h7c"]
+[ext_resource type="Texture2D" uid="uid://dp4ekgsumhudt" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_4.png" id="198_gdraj"]
+[ext_resource type="Texture2D" uid="uid://rvp58ehutb6" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_5.png" id="199_iqt2p"]
+[ext_resource type="Texture2D" uid="uid://budvmx7dwyf00" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_6.png" id="200_wkgws"]
+[ext_resource type="Texture2D" uid="uid://bhwt4bibyq30i" path="res://assets/playable character/warrior/warrior_special_death/NW/warrior_special_death_NW_135.0_7.png" id="201_iexkp"]
+[ext_resource type="Texture2D" uid="uid://ofiks1muip67" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_0.png" id="202_tfgfc"]
+[ext_resource type="Texture2D" uid="uid://cucrtvfq3172a" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_1.png" id="203_q8hvy"]
+[ext_resource type="Texture2D" uid="uid://crwcxh5dnnru4" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_2.png" id="204_d5xq1"]
+[ext_resource type="Texture2D" uid="uid://bq8rjs1jwhypd" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_3.png" id="205_kgwel"]
+[ext_resource type="Texture2D" uid="uid://cr37j1eu8tqqu" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_4.png" id="206_vv5rt"]
+[ext_resource type="Texture2D" uid="uid://blc2b34of0khj" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_5.png" id="207_0aq57"]
+[ext_resource type="Texture2D" uid="uid://dj3sih5quhhxm" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_6.png" id="208_tqiwv"]
+[ext_resource type="Texture2D" uid="uid://dofhestcupaq0" path="res://assets/playable character/warrior/warrior_special_death/NWW/warrior_special_death_NWW_157.5_7.png" id="209_im8l8"]
+[ext_resource type="Texture2D" uid="uid://0ouy5kws2dsk" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_0.png" id="210_vpany"]
+[ext_resource type="Texture2D" uid="uid://cwf2x5ch1tg0p" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_1.png" id="211_60g8x"]
+[ext_resource type="Texture2D" uid="uid://dmehv6tgtolkf" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_2.png" id="212_ieall"]
+[ext_resource type="Texture2D" uid="uid://dxyrskynywder" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_3.png" id="213_s648e"]
+[ext_resource type="Texture2D" uid="uid://d177utroa8ypm" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_4.png" id="214_hhw4q"]
+[ext_resource type="Texture2D" uid="uid://b0vlynrvvggti" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_5.png" id="215_1lg7j"]
+[ext_resource type="Texture2D" uid="uid://csamsgonhex44" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_6.png" id="216_cbtyj"]
+[ext_resource type="Texture2D" uid="uid://dm3sf0ilrdk53" path="res://assets/playable character/warrior/warrior_special_death/S/warrior_special_death_S_270.0_7.png" id="217_oyrxp"]
+[ext_resource type="Texture2D" uid="uid://dm6uxdow5q325" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_0.png" id="218_t7f5m"]
+[ext_resource type="Texture2D" uid="uid://ph6hn63mbdi6" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_1.png" id="219_vreqe"]
+[ext_resource type="Texture2D" uid="uid://cwru6ew2b5s7e" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_2.png" id="220_mu1gn"]
+[ext_resource type="Texture2D" uid="uid://5xs2utvpmqwn" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_3.png" id="221_my7tp"]
+[ext_resource type="Texture2D" uid="uid://wu3bb5sy7ia" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_4.png" id="222_n4u1a"]
+[ext_resource type="Texture2D" uid="uid://dm7wth8d6kxm1" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_5.png" id="223_2mva4"]
+[ext_resource type="Texture2D" uid="uid://cpxq1kkn60348" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_6.png" id="224_rcb2m"]
+[ext_resource type="Texture2D" uid="uid://c758jd7radiye" path="res://assets/playable character/warrior/warrior_special_death/SE/warrior_special_death_SE_315.0_7.png" id="225_wqycd"]
+[ext_resource type="Texture2D" uid="uid://k12yo8xvhn0m" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_0.png" id="226_1cxcq"]
+[ext_resource type="Texture2D" uid="uid://d01ay2xbwpm1" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_1.png" id="227_k4ed8"]
+[ext_resource type="Texture2D" uid="uid://xsfsqbyjsfes" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_2.png" id="228_vob37"]
+[ext_resource type="Texture2D" uid="uid://dk7eo1ea6x1sv" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_3.png" id="229_stc7s"]
+[ext_resource type="Texture2D" uid="uid://c24vow313y1d7" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_4.png" id="230_dbss2"]
+[ext_resource type="Texture2D" uid="uid://wev1a035smbf" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_5.png" id="231_tjmbe"]
+[ext_resource type="Texture2D" uid="uid://msb8vk1alppq" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_6.png" id="232_k5jim"]
+[ext_resource type="Texture2D" uid="uid://6sgjr43sefg1" path="res://assets/playable character/warrior/warrior_special_death/SEE/warrior_special_death_SEE_337.5_7.png" id="233_jehdb"]
+[ext_resource type="Texture2D" uid="uid://531q55b2u4ab" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_0.png" id="234_xuuse"]
+[ext_resource type="Texture2D" uid="uid://dklgy7hs4kysh" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_1.png" id="235_d4un7"]
+[ext_resource type="Texture2D" uid="uid://bt2nsea21e6yb" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_2.png" id="236_wqbro"]
+[ext_resource type="Texture2D" uid="uid://brcs0ewwwashr" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_3.png" id="237_wu5vm"]
+[ext_resource type="Texture2D" uid="uid://c5q2qbqmbf71a" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_4.png" id="238_ioseb"]
+[ext_resource type="Texture2D" uid="uid://b1pcppxkmlx07" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_5.png" id="239_vyisp"]
+[ext_resource type="Texture2D" uid="uid://ca4k7quc0eeu4" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_6.png" id="240_ll4rk"]
+[ext_resource type="Texture2D" uid="uid://cpvptsd1a6uu1" path="res://assets/playable character/warrior/warrior_special_death/SSE/warrior_special_death_SSE_292.5_7.png" id="241_jfnrk"]
+[ext_resource type="Texture2D" uid="uid://cphmi8x001d30" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_0.png" id="242_wr1r8"]
+[ext_resource type="Texture2D" uid="uid://3a57capubaqh" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_1.png" id="243_eu0ex"]
+[ext_resource type="Texture2D" uid="uid://dxeqr1nv1kuyt" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_2.png" id="244_tvymo"]
+[ext_resource type="Texture2D" uid="uid://chjl80jvahvkc" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_3.png" id="245_i8w6e"]
+[ext_resource type="Texture2D" uid="uid://c6q73u70j1vnd" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_4.png" id="246_px66q"]
+[ext_resource type="Texture2D" uid="uid://qyy4x862tlxq" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_5.png" id="247_wbpgj"]
+[ext_resource type="Texture2D" uid="uid://bdl2jxy7ob4sb" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_6.png" id="248_gixp7"]
+[ext_resource type="Texture2D" uid="uid://bwkvxvweojj3k" path="res://assets/playable character/warrior/warrior_special_death/SSW/warrior_special_death_SSW_247.5_7.png" id="249_uospw"]
+[ext_resource type="Texture2D" uid="uid://dxllup1q50bmd" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_0.png" id="250_oxk18"]
+[ext_resource type="Texture2D" uid="uid://dg74imwoooy2e" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_1.png" id="251_55hcp"]
+[ext_resource type="Texture2D" uid="uid://rsq066ta2fl2" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_2.png" id="252_gmkp2"]
+[ext_resource type="Texture2D" uid="uid://c1l4s4v2ben1w" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_3.png" id="253_h237m"]
+[ext_resource type="Texture2D" uid="uid://bwblhbn8guirn" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_4.png" id="254_2bsms"]
+[ext_resource type="Texture2D" uid="uid://1kwbubyhe4i2" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_5.png" id="255_j0ql1"]
+[ext_resource type="Texture2D" uid="uid://to1f4wb8rqsj" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_6.png" id="256_3m77t"]
+[ext_resource type="Texture2D" uid="uid://cr2p7ig08atxl" path="res://assets/playable character/warrior/warrior_special_death/SW/warrior_special_death_SW_225.0_7.png" id="257_vj4p7"]
+[ext_resource type="Texture2D" uid="uid://d302numxn1c2r" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_0.png" id="258_l1brg"]
+[ext_resource type="Texture2D" uid="uid://bt30v45au28f4" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_1.png" id="259_q6qrf"]
+[ext_resource type="Texture2D" uid="uid://6pv5u8yrw8aq" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_2.png" id="260_2mg5u"]
+[ext_resource type="Texture2D" uid="uid://dpiw3smccjj7f" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_3.png" id="261_mgnlh"]
+[ext_resource type="Texture2D" uid="uid://8lbf1dfsscc1" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_4.png" id="262_74ix4"]
+[ext_resource type="Texture2D" uid="uid://bkglbq8ld5ypg" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_5.png" id="263_3bnxp"]
+[ext_resource type="Texture2D" uid="uid://d0yhwtt5bmwhw" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_6.png" id="264_u0f5e"]
+[ext_resource type="Texture2D" uid="uid://dl0ckeoiq5qcb" path="res://assets/playable character/warrior/warrior_special_death/SWW/warrior_special_death_SWW_202.5_7.png" id="265_r7ion"]
+[ext_resource type="Texture2D" uid="uid://bx0fsx5ote1u2" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_0.png" id="266_pch3d"]
+[ext_resource type="Texture2D" uid="uid://bke02u8nyoghi" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_1.png" id="267_5wn7d"]
+[ext_resource type="Texture2D" uid="uid://qy1idinc5syt" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_2.png" id="268_8ow2c"]
+[ext_resource type="Texture2D" uid="uid://di5p740uuimy4" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_3.png" id="269_122vi"]
+[ext_resource type="Texture2D" uid="uid://b2ut5g26ggkp6" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_4.png" id="270_tjtt1"]
+[ext_resource type="Texture2D" uid="uid://kthh5hdt6j47" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_5.png" id="271_w6i1n"]
+[ext_resource type="Texture2D" uid="uid://bqiucxfkn0675" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_6.png" id="272_o5bhf"]
+[ext_resource type="Texture2D" uid="uid://78flfb6omgjp" path="res://assets/playable character/warrior/warrior_special_death/W/warrior_special_death_W_180.0_7.png" id="273_ffq4s"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ch5if"]
 animations = [{
@@ -739,6 +867,470 @@ animations = [{
 "loop": false,
 "name": &"attack_W",
 "speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("146_nnkye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_bijtv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_cox4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_m8mil")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_sp153")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_ct22b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_tb6p6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_47iib")
+}],
+"loop": false,
+"name": &"death_E",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("154_trcoo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_mfiqb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_yct00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_i0ggh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_raxty")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_dq06y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_6edkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_gw8vp")
+}],
+"loop": false,
+"name": &"death_N",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("162_h3voc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_kopjh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_5tmt7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_246s2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_0tit5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_3qxii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_15a3u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_m35kf")
+}],
+"loop": false,
+"name": &"death_NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("170_uhr4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_sjrhk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_nngyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_phqgd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_pe5el")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_b6tnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_o3tl7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_dcx5f")
+}],
+"loop": false,
+"name": &"death_NEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("178_j33xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_cop56")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_im1lu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_e05d0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_cjqfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_oxq8j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_25xb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_6tjf8")
+}],
+"loop": false,
+"name": &"death_NNE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("186_nv8t5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_5mqo4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_vhwah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_gkyfb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_gnkgc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_ccqto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_0t8da")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_xw8n3")
+}],
+"loop": false,
+"name": &"death_NNW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("194_eqc0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_8e15x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_v35h3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_d1h7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_gdraj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_iqt2p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_wkgws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_iexkp")
+}],
+"loop": false,
+"name": &"death_NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("202_tfgfc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_q8hvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_d5xq1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_kgwel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_vv5rt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_0aq57")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_tqiwv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_im8l8")
+}],
+"loop": false,
+"name": &"death_NWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("210_vpany")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_60g8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_ieall")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_s648e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_hhw4q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_1lg7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_cbtyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_oyrxp")
+}],
+"loop": false,
+"name": &"death_S",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("218_t7f5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_vreqe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_mu1gn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_my7tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_n4u1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_2mva4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_rcb2m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_wqycd")
+}],
+"loop": false,
+"name": &"death_SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("226_1cxcq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_k4ed8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_vob37")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_stc7s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_dbss2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_tjmbe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_k5jim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_jehdb")
+}],
+"loop": false,
+"name": &"death_SEE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("234_xuuse")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_d4un7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_wqbro")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_wu5vm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_ioseb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_vyisp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_ll4rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_jfnrk")
+}],
+"loop": false,
+"name": &"death_SSE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("242_wr1r8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_eu0ex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_tvymo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_i8w6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_px66q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_wbpgj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_gixp7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_uospw")
+}],
+"loop": false,
+"name": &"death_SSW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("250_oxk18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_55hcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_gmkp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_h237m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_2bsms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_j0ql1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_3m77t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_vj4p7")
+}],
+"loop": false,
+"name": &"death_SW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("258_l1brg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_q6qrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_2mg5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_mgnlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_74ix4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_3bnxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_u0f5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_r7ion")
+}],
+"loop": false,
+"name": &"death_SWW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("266_pch3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_5wn7d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_8ow2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_122vi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_tjtt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_w6i1n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_o5bhf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_ffq4s")
+}],
+"loop": false,
+"name": &"death_W",
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -1362,7 +1954,7 @@ tex_SEE = ExtResource("17_76m0h")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=1921991705]
 sprite_frames = SubResource("SpriteFrames_ch5if")
-animation = &"attack_E"
+animation = &"death_SEE"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=365032400]
 position = Vector2(0, -18)
@@ -1377,3 +1969,20 @@ monitorable = false
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/AttackArea" unique_id=87012297]
 shape = SubResource("CircleShape2D_000wm")
 disabled = true
+
+[node name="HPBar" type="Node2D" parent="CharacterBody2D" unique_id=522298576]
+position = Vector2(0, -50)
+
+[node name="BG" type="ColorRect" parent="CharacterBody2D/HPBar" unique_id=2090479058]
+offset_left = -16.0
+offset_top = 5.0
+offset_right = 16.0
+offset_bottom = 7.0
+color = Color(0, 0, 0, 1)
+
+[node name="Fill" type="ColorRect" parent="CharacterBody2D/HPBar" unique_id=335517786]
+offset_left = -16.0
+offset_top = 5.0
+offset_right = 16.0
+offset_bottom = 7.0
+color = Color(1, 0.08627451, 0.16862746, 1)
