@@ -286,6 +286,8 @@ tile_set = SubResource("TileSet_q8u5g")
 
 [node name="Player" parent="." unique_id=1263938348 instance=ExtResource("2_vcsgt")]
 
+[node name="EnemySkeleton" parent="." unique_id=386411797 instance=ExtResource("148_w2sqe")]
+
 [node name="Walls" type="StaticBody2D" parent="." unique_id=1691749619]
 
 [node name="Top" type="CollisionShape2D" parent="Walls" unique_id=1731069088]
@@ -303,5 +305,3 @@ shape = SubResource("RectangleShape2D_c01mt")
 [node name="Right" type="CollisionShape2D" parent="Walls" unique_id=159825799]
 position = Vector2(573.625, -1.5)
 shape = SubResource("RectangleShape2D_nxtc6")
-
-[node name="EnemySkeleton" parent="." unique_id=386411797 instance=ExtResource("148_w2sqe")]
